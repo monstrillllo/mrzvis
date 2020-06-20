@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Lab2</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script src = "source.js"></script>
+</head>
+
+<body>
+    <br>
+
+        <div class="row align-items-center">
+            <div class="col-1">
+                <h5>m:</h5>
+            </div>
+            <div class="col-2">
+                <input type="text" class="form-control" id="m" value="1">
+            </div>
+            <div class="col-1">
+                <h5>p:</h5>
+            </div>
+            <div class="col-2">
+                <input type="text" class="form-control" id="p" value="1">
+            </div>
+            <div class="col-1">
+                <h5>q:</h5>
+            </div>
+            <div class="col-2">
+                <input type="text" class="form-control" id="q" value="1">
+            </div>
+             <div class="col-1">
+                <h5>n:</h5>
+            </div>
+            <div class="col-2">
+                <input type="text" class="form-control" id="n" value="1">
+            </div>
+        </div>
+
+        <br>
+        <div class="row align-items-center">
+            <div class="col-1">
+                <h5>Время сложения:</h5>
+            </div>
+            <div class="col-1">
+                <input type="text" class="form-control" id="tSum" value="1">
+            </div>
+            <div class="col-1">
+                <h5>Время вычитания:</h5>
+            </div>
+            <div class="col-1">
+                <input type="text" class="form-control" id="tDifference" value="1">
+            </div>
+            <div class="col-1">
+                <h5>Время умножения:</h5>
+            </div>
+            <div class="col-1">
+                <input type="text" class="form-control" id="tMultiplicity" value="1">
+            </div>
+            <div class="col-2">
+                <h5>Время деления:</h5>
+            </div>
+            <div class="col-1">
+                <input type="text" class="form-control" id="tDivision" value="1">
+            </div>
+            <div class="col-1">
+                <h5>Время сравнения:</h5>
+            </div>
+            <div class="col-1">
+                <input type="text" class="form-control" id="tComparation" value="1">
+            </div>
+            <div class="col-1">
+                <button  type="button" class="btn btn-primary" onclick="launch()">Запустить</button>
+            </div>
+        </div>
+                      
+    <h5>A:</h5>
+    <table class="table table-hover table-bordered" id="a"></table>
+
+    <h5>B:</h5>
+    <table class="table table-hover table-bordered" id="b"></table>
+
+    <h5>E:</h5>
+    <table class="table table-hover table-bordered" id="e"></table>
+
+    <h5>G:</h5>
+    <table class="table table-hover table-bordered" id="g"></table>
+
+    <h5>C:</h5>
+    <table class="table table-hover table-bordered" id="c"></table>
+
+    <h5>Время операций:</h5>
+    <table class="table table-hover table-bordered" id="timeTable"></table>
+
+    <h5>Данные:</h5>
+    <table class="table table-hover table-bordered" id="informationTable"></table>
+
+     <div id="g1"></div>
+     <div id="g2"></div>
+     <div id="g3"></div>
+     <div id="g4"></div>
+     <div id="g5"></div>
+     <div id="g6"></div>
+</body>
+
+</html>
